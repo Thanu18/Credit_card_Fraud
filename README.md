@@ -30,7 +30,15 @@ pip install -r requirements.txt
 - Streamlit
 - MLFlow
 
-![Image](https://github.com/Thanu18/Image_Processing-/blob/main/App_Demo.png)
+## About the Dataset
+The Dataset was downloaded from kaggle.com. These features are tranformed into new cordinates, known as principal components.
+Highly Imabalnced dataset, SMOTE Analysits used to resample the data.
+Both categorical and numerical types of data are present. Label encoder method is used to train -test split data.
+
+## About the Model
+supervised learning methods were used as the labels for Fraud and non Fradulent provided.
+Linear Regression, Gradient Boost Algorithm and Random forest Algorithms are compared and Gradient Boost Algorithm produced the accuracy of 95%
+
 
 
 
